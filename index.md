@@ -1,11 +1,24 @@
 # Look at all these pretty notes
 
----
+## Web
 
----
-# Web
-Reactjs
+- HTML
+- CSS
+- Javascript
+- Reactjs
+- Gatsby
+- Nextjs
+- PHP
 
-# Linux
+# Databases
+- SQL
 
+## Node
+
+## Linux
+
+- [Commands](Commands)
+- [Vim](Vim)
+
+## Git
 
