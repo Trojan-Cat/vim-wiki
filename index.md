@@ -1,6 +1,6 @@
 # Look at all these pretty notes
 
-## Web
+## Front End
 
 - HTML
 - CSS
@@ -10,10 +10,12 @@
 - Nextjs
 - PHP
 
-# Databases
+## Databases
 - SQL
 
-## Node
+## Back End
+- Node
+- Java
 
 ## Linux
 
@@ -21,4 +23,7 @@
 - [Vim](Vim)
 
 ## Git
+
+## Design Patterns
+
 
