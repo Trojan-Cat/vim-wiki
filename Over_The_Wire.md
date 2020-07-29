@@ -45,3 +45,12 @@ use: ls to find human readable, du
 du -ab | sort h
 cat : cat inhere/maybehere07/.file2
 pw: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+##6-7
+Find is used a lot here as it displays the permissions for the files
+There is one we have access to that has the password
+
+use: find, size, cat
+find / -user bandit7 -group bandit6 -size 33c
+cat that file
+pw: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
