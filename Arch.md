@@ -10,3 +10,6 @@ Check status
 `systemctl status bluetooth`
 If down, then start it
 `systemctl start bluetooth`
+
+
+
