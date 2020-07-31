@@ -4,7 +4,7 @@
 
 - HTML
 - [CSS](CSS)
-- Javascript
+- [Javascript](Javascript)
 - [Reactjs](Reactjs)
 - Gatsby
 - Nextjs
@@ -22,6 +22,7 @@
 - [Commands](Commands)
 - [Vim](Vim)
 - [Over_The_Wire](Over_The_Wire)
+- [LibreOffice](LibreOffice)
 
 ## Git
 
