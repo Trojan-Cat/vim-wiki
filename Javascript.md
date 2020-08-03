@@ -1,7 +1,9 @@
 ## Javascript
 
-### Destructuring
 
+### Conditional (Ternary) Operations
+condition ? trueResult : falseResult
+### Destructuring
 [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment|Destructuring]]
 is where you can unpack values from arrays, or properties from objects, and
 then place them into variables
