@@ -15,11 +15,13 @@ A javaScript library for building user Interfaces
 ### What are JSX Fragments?
 
 ### What is a class Component?
+
 :
 Everysingle class has props
+
 #### What is a prop?
 
-
+### What is a functional Component?
 
 <></>
 Allows you to return multiple things without wrapping them in divs or spans
