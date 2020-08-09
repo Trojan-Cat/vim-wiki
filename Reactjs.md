@@ -59,3 +59,23 @@ NPM
 Import
 <code>import styled from 'styled-components'</code>
 </details>
+
+#### Normalize css
+
+`npm install --save normalize.css`
+
+### React.Context
+
+[[https://reactjs.org/docs/context.html|Context API]]
+Good for using to change the authenticated user, theme, language, "Global"
+stuff.
+Provider & Consumer
+Provider takes a value
+Use this with state to change things like a theme from light to dark
+Use with useState hook
+useContext()
+
+## Hooks
+
+- useState()
+- useContent()
