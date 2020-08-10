@@ -34,6 +34,27 @@ What is create-react-app?
 
 `npx create-react-app name_of_app`
 
+## Hooks
+
+### useState()
+
+#### Add to an array
+
+To set the state of an array, by adding one element to it you would use the
+prevState, spread operator
+`setArrayExample(prevState => [...prevState, addedElement])`
+The set state is called, then the function prevState gets the previous state,
+you then spread it out to add all the old state in but then add a new element
+to it
+
+#### Remove from an array using ID
+
+To remove from an array using ID it's similar to the setting, we get the
+prevState, then use .filter, to filter out the element by its id
+`setArrayExample(prevState => prevState.filter(element => element.id !== id))`
+
+### useContent()
+
 #Frequent NPM used
 
 ### eslint
@@ -60,6 +81,12 @@ Import
 <code>import styled from 'styled-components'</code>
 </details>
 
+#### uuid
+
+[[https://www.npmjs.com/package/uuid|uuid]]
+Used to get a unique id
+`npm i uuid`
+
 #### Normalize css
 
 `npm install --save normalize.css`
@@ -74,8 +101,3 @@ Provider takes a value
 Use this with state to change things like a theme from light to dark
 Use with useState hook
 useContext()
-
-## Hooks
-
-- useState()
-- useContent()
