@@ -53,6 +53,17 @@ To remove from an array using ID it's similar to the setting, we get the
 prevState, then use .filter, to filter out the element by its id
 `setArrayExample(prevState => prevState.filter(element => element.id !== id))`
 
+### useEffect()
+
+Side effect hook
+Good to use like a lifecycle method, have it run when a component is mounted,
+unmounted, rerenderd, changed, etc
+
+You can pass it values so that it only runs when those specific values are
+changed
+If you pass it an empty array it'll run only the first time that component is
+run
+
 ### useContent()
 
 #Frequent NPM used
