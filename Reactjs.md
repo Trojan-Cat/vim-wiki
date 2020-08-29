@@ -10,18 +10,80 @@ A javaScript library for building user Interfaces
 - Stateful
   A component can maintain internal state
 
+
+### React.Component
+Takes a parameter called props
+Returns view with render() method
+
+What does the render method do?
+It returns a description of what you want to see on the screen
+Render returns a React element
+
+Each React component is encapsulated and can operate independently
+
+### React Element
+Each react element is a javascript object you can store in a variable or pass
+around your program
+
 ### What is JSX?
+You can put any javascript expression within braces inside JSX.
+
+### SUPER
+Always call super(props) when using a constructor
+
+### setState
+React will automatically update any chil components once you call setState on
+a component
+
+
+### Controled components
+A parent component has complete control over a child compoennt, when it's
+passing the child props, and and functions etc. The child is only taking in the
+props, and using them, not chanigng anytihng itself
+
+### Parent Component (BIG DADDY MAKES THE CALLS)
+So big daddy owns all the state, and allows children to change it if it passses
+props and the like down. BUT you do not have children passing to Big Daddy, no
+sir
+Big Daddy keeps the children in sync this way
+
+### What is encapsulation and how does it work in react
+
+### what is immutability and why is it important?
+Replace the data with a new copy of that data which has the desired changes
+applied to it.
+- Time travel
+- Detecting changes
+- Pure components
+
+The main benefit is being able to build pure components
+
+### Key prop for React
+Keys tell React about the identity of each component which allows React to
+maintain state between re-renders
+
+IF DYNAMIC ASSIGN A PROPER KEY HOMIE!
+
+Using the array index as a key is problematic when trying to re-order a list's
+items or inserting/removing list items
+
+Keys don't need to be globally unique; they only need to be unique between
+components and their siblings
 
 ### What are JSX Fragments?
 
 ### What is a class Component?
 
-:
+
 Everysingle class has props
 
 #### What is a prop?
 
-### What is a functional Component?
+### What is a functional Component (Function component)?
+A component that only contains a render method. 
+Normally a child, that is being passed props, it's a controlled component in
+most cases
+Does not have its own state
 
 <></>
 Allows you to return multiple things without wrapping them in divs or spans
